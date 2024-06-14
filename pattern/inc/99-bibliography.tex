@@ -1,12 +1,15 @@
+\newpage
 \renewcommand{\section}[2]{\anonsection{Библиографический список}}
+
 %%% Подключение списка литературы по госту 2008 года
 \bibliographystyle{ugost2008l}
-% Подключаем сам файл с литературой (разрешение .bib)
 
+%Подключаем сам файл с литературой (разрешение .bib)
 %%% В ФАЙЛЕ ДЛЯ РУССКИХ ИСТОЧНИКОВ ДОБАВЛЯЕМ language={russian}
-\bibliography{references}
+\bibliography{pattern/references}
 
-\label{sec:bibliography}
+%\label{sec:bibliography}
+%\printbibliography
 
 % Обязательно добавляем это в конце каждой секции, чтобы 
 % обеспечить переход на новую страницу
